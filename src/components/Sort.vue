@@ -3,10 +3,11 @@
     <h2>Sort</h2>
     <select v-model="chosenSort.prop">
       <option disabled value="">Sort by: </option>
-      <option value="pokemon">name</option>
-      <option value="attack">attack</option>
+      <option value="pokemon">A-Z</option>
+      <option value="id">#</option>
+      <option value="attack">Attack</option>
       <option value="hp">HP</option>
-      <option value="defense">defense</option>
+      <option value="defense">Defense</option>
     </select>
   </div>
 </template>
